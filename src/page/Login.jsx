@@ -2,54 +2,59 @@ import React from 'react'
 
 const Login = () => {
   return (
-    <div className='w-screen px-30 py-24 gap-14 flex justify-center items-center h-screen bg-white'>
+    <div className='w-screen px-30 py-20 gap-14 flex justify-center items-center h-screen bg-white'>
 
 
-        <div className='w-1/3  flex flex-col justify-start items-center bg-white h-full'>
+        <div className='w-[40%] px-16 py-6 border border-gray-200 rounded-xl  flex flex-col justify-start items-center bg-whitew h-full '>
         <div className='flex justify-center items-center'>
           <div className='w-7 h-7'><img src="../../public/img/logo/Sign-Up/Group.svg" alt="" /></div>
            <h1 className='text-2xl text-[#FF321F] font-bold italic '>CTRMExpertPlatform</h1>
         </div>
 
-          <h2 className='text-lg font-semibold '>Welcome Back!</h2>
+          <h2 className='text-lg py-3 font-semibold '>Welcome Back!</h2>
 
+ <div className='flex flex-col w-full gap-2.5'>
 
-          <div className='flex h-18  w-full  flex-col gap-2 ' >
-             <label htmlFor="usernama">Emai</label>
-             <input className='outline-0 px-2 w-full h-full  border rounded-sm border-gray-400 ' placeholder='your.email@example.com' type="text" id='username' name='usernama' />
+          <div className='flex h-[3.7rem]  w-full  flex-col gap-2 ' >
+             <label   className='text-xs' htmlFor="usernama">Emai</label>
+             <input className='outline-0 px-2 w-full h-full  text-xs border-2 rounded-sm border-gray-300 ' placeholder='your.email@example.com' type="text" id='username' name='usernama' />
           </div>
 
-<div className='flex h-18  w-full  flex-col gap-2 ' >
-             <label htmlFor="usernama">Emai</label>
-             <input className='outline-0 px-2 w-full h-full  border rounded-sm border-gray-400 ' placeholder='your.email@example.com' type="text" id='username' name='usernama' />
+ <div className='flex h-[3.7rem]  w-full  flex-col gap-2 ' >
+             <label   className='text-xs' htmlFor="usernama">Password</label>
+             <input className='outline-0 px-2 w-full h-full  text-xs border-2 rounded-sm border-gray-300 ' placeholder='your.email@example.com' type="text" id='username' name='usernama' />
           </div>
 
-<div className='text-xs text-right w-full'>
+
+<div className='text-xs text-[#FF321F] text-right w-full'>
  Forgot password?
 </div>
 
 
- <button className='w-full h-8 text-white rounded-sm bg-[#FF321F]'>
+ <button className='w-full text-sm h-8 text-white rounded-sm bg-[#FF321F]'>
   Sign In
  </button>
+ </div>
 
-<div className='flex w-full justify-between items-center gap-3'><hr  className=' w-full' />OR<hr  className=' w-full' /></div>
+<div className='flex w-full py-4 justify-between items-center gap-3'><hr  className=' w-full' />OR<hr  className=' w-full' /></div>
 
+<div className='flex flex-col w-full gap-2'>
 
 <div className='w-full h-8 flex  border rounded-sm border-gray-500 justify-center items-center'>
 <div className='w-6 h-4'><img src="../../public/img/logo/Sign-Up/git.svg" alt="" /></div>
-<li className=' list-none ' >Continue with LinkedIn</li>
+<li className=' list-none  text-xs ' >Continue with LinkedIn</li>
 </div>
 
 <div className='w-full h-8 flex  border rounded-sm border-gray-500 justify-center items-center'>
 <div className='w-6 h-4'><img src="../../public/img/logo/Sign-Up/Chrome.svg" alt="" /></div>
-<li className=' list-none ' >Continue with LinkedIn</li>
+<li className=' list-none  text-xs ' >Continue with LinkedIn</li>
+</div>
+
 </div>
 
 
 
-
-<div className='text-sm'>Don't have an account? <span className='text-[#FF321F]'>Sign Up</span></div>
+<div className='text-xs pt-5 '>Don't have an account? <span className='text-[#FF321F]'>Sign Up</span></div>
 
 
 
