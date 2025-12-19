@@ -5,14 +5,26 @@ import './App.css'
 import { Routes, Route } from "react-router-dom";
 import Login from './page/Login';
 import Onboarding from './page/Onboarding';
+
+import UserDashboard from './page/UserDashboard';
+
 function App() {
+
 
 
   return (
     <>
       <Routes>
-        <Route path="/" element={<Onboarding />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<UserDashboard />} />
+        <Route path="/two" element={<Onboarding />} />
+        <Route path="/one" element={<Login />} />
+
+
+
+
+
+
+
       </Routes>
     </>
   )
