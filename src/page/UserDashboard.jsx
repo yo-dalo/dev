@@ -63,11 +63,11 @@ const UserDashboard = () => {
 
 
 
-                        <div className="w-full flex justify-center gap-3 rounded-lg items-center bg-gray-400 h-10">
+                        <div className="w-full flex justify-start px-4 gap-3 rounded-lg items-center bg-gray-400 h-10">
                             <div className="">
                                 <img src="img/svg/ff.svg" alt="" />
                             </div>
-                            <h3>Home </h3>
+                            <h3>Dashboard </h3>
 
                         </div>
 
